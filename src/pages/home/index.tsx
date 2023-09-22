@@ -1,8 +1,7 @@
-import './App.css'
-import ButtonFatec from './components/ButtonFatec'
-import InputFatec from './components/InputFatec'
+import ButtonFatec from "../../components/ButtonFatec";
+import InputFatec from "../../components/InputFatec";
 
-function App() {//precisa ter letra maiuscula no nome da function, se deixar minuscula pode quebrar htlm
+export default function Home() {//precisa ter letra maiuscula no nome da function, se deixar minuscula pode quebrar htlm
 
   return (
     <>
@@ -14,4 +13,3 @@ function App() {//precisa ter letra maiuscula no nome da function, se deixar min
   )
 }
 
-export default App
