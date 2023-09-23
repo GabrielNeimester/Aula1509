@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+import Header from "../../components/Header";
 
 export default function Sobre(){
     return(
     <>
+    <Header/>
     <h1>Sobre</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis nisi ipsam sint maiores voluptas deserunt expedita consequuntur error, quia, molestias amet, veniam totam ad perferendis quaerat sapiente voluptates veritatis sunt.</p>
-    <Link to='/'>Home</Link>
+    <p>O +Tarefas é um projeto desenvolvido por Gabriel Neimester durante as aulas de Programação Web afim de facilitar as rotinas do dia-a-dia cadastrando e listando suas principais tarefas </p>
     </>
     )
 }

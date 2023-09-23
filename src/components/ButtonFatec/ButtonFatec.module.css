@@ -1,9 +1,15 @@
 .botaoFatec{
     border: 1px solid #333;
-    background-color: red;
+    background-color: rgb(7, 7, 85);
     color: white;
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 8px;
     padding-bottom: 8px;
+    border-radius: 8px;
+}
+
+.botaoFatec:hover{
+    background-color: rgb(7, 7, 55);
+    cursor: pointer;
 }
