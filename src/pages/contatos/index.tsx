@@ -8,9 +8,9 @@ export default function Contatos() {//precisa ter letra maiuscula no nome da fun
   return (
     <>
       <Header/>
-      <InputFatec type='text' placeholder='Digite se Nome' value='Gabriel'/>
-      <InputFatec type='text' placeholder='Digite seu E-mail' value='teste@email.com'/>
-      <InputFatec type='text' placeholder='Digite seu Telefone' value='1234578910'/>
+      <InputFatec type='text' placeholder='Digite se Nome' defaultValue='Gabriel'/>
+      <InputFatec type='text' placeholder='Digite seu E-mail' defaultValue='teste@email.com'/>
+      <InputFatec type='text' placeholder='Digite seu Telefone' defaultValue='1234578910'/>
       <ButtonFatec type='submit' label='Enviar'/>
       <hr />
       
